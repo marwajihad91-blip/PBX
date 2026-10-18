@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>Phone System Integration Form | Your AI Front Desk</title>
+<meta name="description" content="Share your phone system details so our team can plan your Your AI Front Desk integration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Light brand palette — matches the Your AI Front Desk website */
+:root{
+  --navy:#0E2A4F; --blue:#1D5BD8; --blue-600:#174BB5; --blue-50:#EEF4FE; --blue-100:#DCE8FC;
+  --ink:#13233A; --muted:#5E6E84; --line:#DFE6F0; --page:#F5F8FC; --card:#FFFFFF;
+  --error:#C2362B; --ok:#137A4B; --amber-50:#FFF8EA; --amber:#9A6200;
+  --radius-lg:18px; --radius:10px;
+  color-scheme:light; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0; background:var(--page); color:var(--ink);
+  font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px; line-height:1.55; -webkit-font-smoothing:antialiased}
+
+/* Top bar */
+.topbar{background:#fff; border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:920px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; justify-content:space-between; gap:12px}
+.brand{display:inline-flex; align-items:center; gap:11px; text-decoration:none; color:var(--navy)}
+.brand img{height:70px; width:auto; display:block}
+.brand-name{font-weight:700; font-size:1.08rem; letter-spacing:-0.01em; line-height:1.1}
+.brand-name span{display:block; font-weight:500; font-size:.76rem; color:var(--muted)}
+.site-link{font-size:.9rem; color:var(--blue); text-decoration:none; font-weight:600}
+.site-link:hover{text-decoration:underline}
+
+/* Intro */
+.intro{max-width:920px; margin:0 auto; padding:40px 20px 26px}
+.intro h1{font-size:clamp(1.7rem,4vw,2.3rem); line-height:1.15; letter-spacing:-0.02em; margin:0 0 10px; color:var(--navy)}
+.intro p{margin:0; color:var(--muted); max-width:62ch}
+.meta{display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:18px; font-size:.9rem; color:var(--muted)}
+.meta span{display:inline-flex; align-items:center; gap:7px}
+.meta svg{width:16px; height:16px; color:var(--blue)}
+
+main{max-width:920px; margin:0 auto; padding:0 16px 60px}
+.card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius-lg); box-shadow:0 14px 36px -26px rgba(14,42,79,.35); overflow:hidden}
+
+/* Confidentiality */
+.notice{display:flex; gap:13px; padding:16px 24px; background:var(--blue-50); border-bottom:1px solid var(--blue-100)}
+.notice svg{width:20px; height:20px; flex:none; color:var(--blue); margin-top:2px}
+.notice p{margin:0; font-size:.88rem; color:var(--muted)}
+.notice strong{color:var(--navy)}
+
+/* ===== Stepper ===== */
+.stepper{padding:26px 22px 18px; border-bottom:1px solid var(--line); background:#fff}
+.stepper ol{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(7,1fr)}
+.step{position:relative}
+.step button{width:100%; display:flex; flex-direction:column; align-items:center; gap:9px; background:none; border:0; padding:0 4px; font:inherit; cursor:pointer; text-align:center; color:inherit}
+.step button:focus-visible{outline:2px solid var(--blue); outline-offset:4px; border-radius:10px}
+.dot{position:relative; z-index:1; width:36px; height:36px; border-radius:50%; display:grid; place-items:center; font-weight:700; font-size:.9rem;
+  background:#fff; border:2px solid var(--line); color:var(--muted); transition:background .2s, border-color .2s, box-shadow .2s, color .2s}
+.dot svg{display:none; width:18px; height:18px}
+.dot .lock{display:none; width:15px; height:15px}
+.step::after{content:""; position:absolute; top:17px; left:calc(50% + 25px); right:calc(-50% + 25px); height:2px; background:var(--line); border-radius:2px; transition:background .3s}
+.step:last-child::after{display:none}
+.step.done::after{background:var(--blue)}
+.lbl b{display:block; font-size:.87rem; font-weight:600; line-height:1.25; color:var(--muted)}
+.lbl small{display:block; font-size:.75rem; color:#8B98AB; margin-top:1px}
+/* current */
+.step.current .dot{background:var(--blue); border-color:var(--blue); color:#fff; box-shadow:0 0 0 5px rgba(29,91,216,.16)}
+.step.current .lbl b{color:var(--navy)}
+/* done (and not the one being viewed) */
+.step.done:not(.current) .dot{background:var(--blue); border-color:var(--blue); color:#fff}
+.step.done:not(.current) .dot .num{display:none}
+.step.done:not(.current) .dot .tick{display:block}
+.step.done:not(.current) .lbl b{color:var(--navy)}
+/* locked */
+.step.locked button{cursor:not-allowed}
+.step.locked .dot{background:var(--page); border-style:dashed; color:#9AA7B8}
+.step.locked .dot .num{display:none}
+.step.locked .dot .lock{display:block}
+.step.locked .lbl b{color:#9AA7B8}
+.step.locked .lbl small{color:#B2BCCA}
+/* error */
+.step.has-error .dot{background:#FCE9E7; border-color:var(--error); color:var(--error)}
+.step-caption{display:none; margin:14px 0 0; text-align:center; font-size:.88rem; color:var(--muted)}
+.step-caption b{color:var(--navy)}
+.step-msg{margin:0; max-height:0; overflow:hidden; opacity:0; text-align:center; font-size:.86rem; color:var(--amber); transition:max-height .25s, opacity .25s, margin .25s}
+.step-msg.show{max-height:60px; opacity:1; margin-top:14px}
+
+/* Panels */
+.panel{display:none; padding:28px 24px 8px}
+.panel.active{display:block}
+.panel-head{margin-bottom:22px}
+.panel-head h2{margin:0; font-size:1.25rem; color:var(--navy); letter-spacing:-0.01em}
+.panel-head p{margin:4px 0 0; color:var(--muted); font-size:.93rem; max-width:66ch}
+.sub{font-size:1rem; color:var(--navy); margin:30px 0 4px; padding-top:22px; border-top:1px solid var(--line)}
+.panel-head + .sub{margin-top:0; padding-top:0; border-top:0}
+.sub + .sub-p{margin:0 0 16px; color:var(--muted); font-size:.9rem; max-width:68ch}
+
+.grid{display:grid; grid-template-columns:1fr 1fr; gap:18px; align-items:start}
+.full{grid-column:1/-1}
+.field label.l,.field .q{display:block; font-weight:600; font-size:.93rem; margin-bottom:7px; line-height:1.35}
+.req{color:var(--error); margin-left:2px}
+.help{display:block; margin-top:6px; color:var(--muted); font-size:.82rem; line-height:1.45}
+input[type=text],input[type=email],input[type=tel],input[type=number],input[type=date],textarea,select{
+  width:100%; font:inherit; font-size:.96rem; color:var(--ink); background:#fff; height:44px;
+  border:1px solid var(--line); border-radius:var(--radius); padding:10px 12px; transition:border-color .15s, box-shadow .15s}
+select{appearance:none; -webkit-appearance:none; padding-right:36px; cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235E6E84' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:right 12px center}
+select option:disabled{color:#A9B4C4}
+textarea{min-height:92px; height:auto; resize:vertical}
+input::placeholder,textarea::placeholder{color:#8B98AB}
+input:focus,textarea:focus,select:focus{outline:none; border-color:var(--blue); box-shadow:0 0 0 3px rgba(29,91,216,.18)}
+.invalid input,.invalid textarea,.invalid select,select.bad,input.bad{border-color:var(--error)}
+.err{display:none; color:var(--error); font-size:.84rem; margin-top:6px}
+.invalid > .err,.ivr-bad > .err,.hrs-bad > .err{display:block}
+
+/* Choice groups (uniform, equal width) */
+.choices{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px}
+.pill{position:relative; display:block}
+.pill input{position:absolute; opacity:0; inset:0; margin:0; cursor:pointer; width:100%; height:100%}
+.pill span{display:block; text-align:center; padding:11px 14px; border:1px solid var(--line); border-radius:var(--radius); font-size:.93rem; font-weight:500; background:#fff; cursor:pointer; transition:.15s}
+.pill:hover span{border-color:#BCCBE3}
+.pill input:checked + span{background:var(--blue-50); border-color:var(--blue); color:var(--blue-600); font-weight:600; box-shadow:inset 0 0 0 1px var(--blue)}
+.pill input:focus-visible + span{outline:2px solid var(--blue); outline-offset:2px}
+
+/* Option cards */
+.opts{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; align-items:start}
+.opts.two{grid-template-columns:repeat(2,1fr)}
+.opt{position:relative; display:block; border:1px solid var(--line); border-radius:12px; padding:16px 16px 16px 46px; cursor:pointer; background:#fff; transition:border-color .15s, background .15s}
+.opt:hover{border-color:#BCCBE3}
+.opt input{position:absolute; left:16px; top:18px; width:17px; height:17px; margin:0; accent-color:var(--blue)}
+.opt b{display:block; font-size:.97rem; color:var(--navy)}
+.opt small{display:block; color:var(--muted); font-size:.84rem; margin-top:2px}
+.need{display:block; margin-top:11px; padding-top:10px; border-top:1px solid var(--line); font-size:.83rem; color:var(--muted)}
+.need strong{display:block; font-size:.7rem; letter-spacing:.06em; text-transform:uppercase; color:var(--navy); margin-bottom:2px}
+.opt-hint{display:none; margin-top:10px; padding-top:10px; border-top:1px dashed var(--blue-100); font-size:.86rem; color:var(--ink)}
+.opt-hint code{font-family:inherit; font-weight:600; color:var(--blue-600); background:var(--blue-50); padding:1px 6px; border-radius:5px; white-space:nowrap}
+.opt:has(input:checked){border-color:var(--blue); background:var(--blue-50); box-shadow:inset 0 0 0 1px var(--blue)}
+.opt:has(input:checked) .need{border-top-color:var(--blue-100)}
+.opt input:checked ~ .opt-hint{display:block}
+
+/* Info note */
+.note{display:flex; gap:12px; padding:14px 16px; border-radius:12px; background:var(--blue-50); border:1px solid var(--blue-100); font-size:.9rem; margin:0 0 18px}
+.note svg{width:20px; height:20px; flex:none; color:var(--blue); margin-top:1px}
+.note.warn{background:var(--amber-50); border-color:#F2DFB4}
+.note.warn svg{color:var(--amber)}
+.note p{margin:0}
+.note strong{color:var(--navy)}
+
+/* Shared small parts */
+.badge{width:28px; height:28px; border-radius:50%; background:var(--blue-50); color:var(--blue-600); font-weight:700; font-size:.82rem; display:grid; place-items:center; flex:none}
+.icon-btn{width:36px; height:36px; border-radius:var(--radius); border:1px solid var(--line); background:#fff; color:var(--muted); cursor:pointer; display:grid; place-items:center}
+.icon-btn:hover{color:var(--error); border-color:var(--error)}
+.text-btn{background:none; border:0; padding:4px 0; font:inherit; font-weight:600; color:var(--blue); cursor:pointer; display:inline-flex; align-items:center; gap:6px}
+.text-btn[disabled]{color:#9AA7B8; cursor:not-allowed}
+.icon-btn:focus-visible,.text-btn:focus-visible,.btn:focus-visible{outline:2px solid var(--blue); outline-offset:2px}
+.counter{margin:0 0 12px; font-size:.84rem; color:var(--muted)}
+.counter b{color:var(--navy)}
+
+/* Branch cards (step 2) */
+.branch{border:1px solid var(--line); border-radius:12px; padding:18px; margin-bottom:12px; background:#FBFCFE}
+.branch-head{display:flex; align-items:center; gap:10px; margin-bottom:14px}
+.branch-head h4{margin:0; font-size:.95rem; color:var(--navy)}
+
+/* IVR rows */
+.rows-head,.row{display:grid; gap:10px; align-items:center}
+.ivr .rows-head,.ivr .row{grid-template-columns:62px 1fr 210px 36px}
+.r-ext{display:none; grid-column:2/4}
+.row.has-ext .r-ext{display:block}
+.rows-head{font-size:.8rem; color:var(--muted); font-weight:600; margin-bottom:6px; padding:0 2px}
+.row{margin-bottom:10px}
+.key{height:44px; border-radius:var(--radius); background:var(--blue-50); color:var(--blue-600); font-weight:700; display:grid; place-items:center; font-size:.9rem}
+
+/* Business hours */
+.h-list{border:1px solid var(--line); border-radius:12px; overflow:hidden}
+.h-row{display:grid; grid-template-columns:190px 1fr 28px 1fr; gap:10px; align-items:center; padding:10px 14px; background:#fff}
+.h-row + .h-row{border-top:1px solid var(--line)}
+.h-row.off{background:#FBFCFE}
+.h-row.off .h-sel,.h-row.off .h-to{opacity:.4}
+.h-day{display:flex; align-items:center; gap:12px; cursor:pointer; margin:0}
+.switch{position:relative; width:40px; height:22px; flex:none}
+.switch input{position:absolute; inset:0; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; z-index:1}
+.slider{position:absolute; inset:0; border-radius:999px; background:#CBD5E4; transition:.2s}
+.slider::after{content:""; position:absolute; top:3px; left:3px; width:16px; height:16px; border-radius:50%; background:#fff; transition:.2s; box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.switch input:checked + .slider{background:var(--blue)}
+.switch input:checked + .slider::after{transform:translateX(18px)}
+.switch input:focus-visible + .slider{outline:2px solid var(--blue); outline-offset:2px}
+.h-name b{display:block; font-size:.93rem; color:var(--navy); line-height:1.2}
+.h-name small{display:block; font-size:.78rem; color:var(--muted)}
+.h-to{text-align:center; color:var(--muted); font-size:.85rem}
+.h-sel{height:40px}
+
+/* Transfer details per branch */
+.t-row{display:grid; grid-template-columns:minmax(150px,210px) 1fr; gap:16px; align-items:start; padding:16px; border:1px solid var(--line); border-radius:12px; background:#FBFCFE; margin-bottom:12px}
+.t-name{display:flex; gap:10px; align-items:center; padding-top:26px}
+.t-name b{display:block; font-size:.93rem; color:var(--navy); line-height:1.3; word-break:break-word}
+.t-name small{display:block; color:var(--muted); font-size:.78rem}
+.t-fields{display:grid; grid-template-columns:1fr; gap:14px}
+.t-fields.two{grid-template-columns:1fr 1fr}
+
+/* IT / phone provider callout */
+.it-callout{display:flex; gap:13px; align-items:flex-start; padding:15px 18px; margin:0 0 24px; border:1px solid #EFD9A6; border-left:4px solid var(--amber); border-radius:12px; background:var(--amber-50)}
+.it-callout svg{width:22px; height:22px; flex:none; color:var(--amber); margin-top:1px}
+.it-callout p{margin:0; color:var(--ink); font-size:.92rem; line-height:1.5}
+.it-callout strong{display:block; color:var(--navy); font-size:1rem; margin-bottom:2px}
+.sub.first{margin-top:0; padding-top:0; border-top:0}
+.opt-tag{font-weight:500; font-size:.8rem; color:var(--muted); margin-left:6px}
+
+/* Call flow diagram */
+.flow{border:1px solid var(--line); border-radius:12px; background:#FBFCFE; padding:18px 18px 14px; margin:0 0 14px}
+.flow.sketch{padding:20px 18px; margin:0 0 20px}
+.flow svg{display:block; width:100%; height:auto}
+.flow .narrow{display:none}
+.fn rect{fill:#fff; stroke:#C9D6EA; stroke-width:1.5}
+.fn.main rect{stroke:var(--navy)}
+.fn.ai rect{fill:var(--blue-50); stroke:var(--blue)}
+.fn.cont rect{fill:var(--amber-50); stroke:var(--amber); stroke-dasharray:6 4}
+.ft{font-size:14px; font-weight:600; fill:var(--navy)}
+.fs{font-size:12px; fill:var(--muted)}
+.fs.amber{fill:var(--amber); font-weight:600}
+.fs.blue{fill:var(--blue-600); font-weight:600}
+.fl{fill:none; stroke:var(--blue); stroke-width:2}
+.fl.dash{stroke:var(--amber); stroke-dasharray:6 5}
+.fl.link{stroke:#9AA7B8; stroke-width:1.5; stroke-dasharray:2 4; stroke-linecap:round}
+.flow-legend{display:flex; flex-wrap:wrap; gap:6px 22px; margin-top:12px; font-size:.84rem; color:var(--muted)}
+.flow-legend span{display:inline-flex; align-items:center; gap:8px}
+.flow-legend i{display:inline-block; width:26px; border-top:2px solid var(--blue)}
+.flow-legend i.dash{border-top:2px dashed var(--amber)}
+
+
+/* Continuity requirements */
+.reqs{border:1px solid var(--line); border-radius:12px; padding:14px 16px; background:#FBFCFE; margin:0 0 20px}
+.reqs p{margin:0 0 8px; font-weight:600; font-size:.92rem; color:var(--navy)}
+.reqs ul{list-style:none; margin:0; padding:0; display:grid; gap:6px}
+.reqs li{position:relative; padding-left:26px; font-size:.89rem}
+.reqs li::before{content:""; position:absolute; left:2px; top:4px; width:15px; height:15px; border-radius:50%; background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/10px no-repeat}
+
+.cond{display:none}
+.cond.show{display:block}
+
+.consent{display:flex; gap:12px; align-items:flex-start; font-size:.92rem}
+.consent input{width:18px; height:18px; margin-top:3px; accent-color:var(--blue); flex:none}
+
+/* Footer nav */
+.actions{display:flex; justify-content:space-between; align-items:center; gap:12px; padding:20px 24px 24px; margin-top:18px; border-top:1px solid var(--line)}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; border-radius:var(--radius); padding:12px 22px; font:inherit; font-weight:600; font-size:.97rem; cursor:pointer; border:1px solid transparent}
+.btn-primary{background:var(--blue); color:#fff}
+.btn-primary:hover{background:var(--blue-600)}
+.btn-ghost{background:#fff; color:var(--navy); border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--blue); color:var(--blue)}
+.btn[disabled]{opacity:.6; cursor:progress}
+.progress{font-size:.86rem; color:var(--muted)}
+.hidden{visibility:hidden}
+
+.success{display:none; padding:60px 24px; text-align:center}
+.success svg{width:56px; height:56px; color:var(--ok)}
+.success h2{margin:14px 0 8px; font-size:1.4rem; color:var(--navy)}
+.success p{margin:0 auto; color:var(--muted); max-width:48ch}
+
+.footer{text-align:center; color:var(--muted); font-size:.83rem; margin-top:24px}
+.footer a{color:inherit}
+
+@media (max-width:720px){
+  .opts,.opts.two{grid-template-columns:1fr}
+  .t-row{grid-template-columns:1fr}
+  .t-name{padding-top:0}
+}
+@media (max-width:620px){
+  .grid,.t-fields.two{grid-template-columns:1fr}
+  .flow{padding:14px 12px 12px}
+  .flow .wide{display:none}
+  .flow .narrow{display:block}
+  .panel{padding:24px 18px 6px}
+  .notice{padding:14px 18px}
+  .actions{padding:18px}
+  .stepper{padding:20px 14px 16px}
+  .lbl{display:none}
+  .dot{width:32px; height:32px; font-size:.82rem}
+  .step::after{top:15px; left:calc(50% + 22px); right:calc(-50% + 22px)}
+  .step-caption{display:block}
+  .ivr .rows-head{display:none}
+  .ivr .row{grid-template-columns:44px 1fr 36px; grid-template-areas:"k b x" "k d x" "k e x"}
+  .ivr .row .key{grid-area:k; align-self:start}
+  .ivr .row .r-branch{grid-area:b}
+  .ivr .row .r-dest{grid-area:d}
+  .ivr .row .icon-btn{grid-area:x; align-self:start}
+  .ivr .row .r-ext{grid-area:e}
+  .h-row{grid-template-columns:1fr 24px 1fr}
+  .h-day{grid-column:1/-1}
+  .site-link{display:none}
+  .brand img{height:54px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="https://youraifrontdesk.com/en" aria-label="Your AI Front Desk home"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAABRCAYAAABIf5MKAAAi30lEQVR42u2dd3wU1drHv2dmSxoJBAhISQgdQxNpCqgQBFFBQEFAxYuAem0glvd69eq9ihUVAtYrooiKKBYQVESwXESalISqkNBrKCmbZHdnzvP+sZslkaBiAdH58ZlP2JkzM6f9zvOc5znnGWVZGgcOHPx6GE4VOHDgkMmBA4dMDhw4ZHLgwIFDJgcOHDI5cOCQyYEDh0wOHDhwyOTAgUMmBw4cMjlw4MAhkwMHDpkcOHDI5MCBQyYHDhw4ZHLgwCGTAwcOmRw4cMjkwIEDh0wOHDhkcuDAIZMDBw4cMjlw4JDJgYM/MFx/hkIU+60O2/YVLtlzoIAjvhKCtoFhQKVYD3Wrx1GvZlx6jNe90GluB78n1OkY0TUQtJO+WLtn37zlO1m8aR8bdu/HsrwYCJogJgZaorHEBgUubzHNatbkvLRqXNQmhQta1FQu0xHKDv7CZMrNK571zLzv+kz9dCO5ecWI6LCmaiKmiekSEqLAbRpYYpJX5KfEKsGlFTaCKV4w4YwqHoZd0IK/X9xwcmK8d6TTDRz8ZcgUCNpJk+Zk7nvsgyx8AYVpCybQsn5lureqTYcmNWlWJ4EzqkbHuU3TV3qfZWv2HvbJxh2FfLNpHwsyd7Ni8wG01iilqeKO5fYr0ri195k1PG5z/wlnLO/Am3rP+sGWIXhqnzWC2ISXf5hEdq8TCvaDJwaV2kGdsko8vHsLChCQuKotldvrOyZN4aGHCZYMEiRWVald06HHn4xMG3celuEZi1i7LQ/TtqiU6OLabi0Z1rUeqTXjT7hzbttfKK8szOaFT5dSUGigcJFWtxqvjDqXM5OrnNDzVEHuS/qJc0eUBIsx0y7Gc82L5e6XgzukaFJPooqLMS+9B7pcf0rIJDszRTIuBaVQhoILb0Wl33FMXvS0G0XWzsMwPPDweqUM02HICeAPPXH4aPUu6XrvR2RuO4LbZXJb39ZkThz4zwcHt1THI5KIlPv7Q6Qkxal/D2qpNj1z7T/v6NMSt8vFuu0FnH/PfD5csU1OqJNWqjZS974fpQysrDlI1sfl7rdnP4AqKSHYsD3Safipk0pL3wyJJG8clm3hXzYL0RUMooaB1ja2dr6M8qeSTO8v3i3XPPM5Adum2RlVeW1UB1qlVivXIX0lwd6LNx2Yvey7A2zYkc+W/fkc8dmUlBh43BAfr0itGk+z2pVo17AynZqdkVGlknd02WesyjksQ5+ez+Y9xSiXMPmmzgw5r+HP7/giBKZcJ+bGj7ESUvCMmTdKxVSeKGvnijH1ZsQbB7fPgar1FIDk7cmUw1tb4IlD1WimlHnUoCqB4lRMd07Zc4iA79AEohNGEz4vVgBluBDRKNOF7FglKqHWAuJrdD9G2pQU9LbHtp2tgn7MIc/gnz4SJBbPjdMwUs8pV079+k1iZ36EmC7cD29yJNOfgUzzMnfKkAfnU2Ao0lvXZsboC0bFx7gnll7/37pd8uKC7/h4+W58fo1pgIhGdEUcUCCA0rjdUXRNq8aw9Ab0bpeszLBF73BByYQhTy8YtXB9Lm5l8P49XbmwVZ2fT6iCvd9YT1/Y0VVwGP85g/Bc8kCf4oyes6MP7MS4/BHknKsV+fs+M966Oz3w3SKCbgtla6icQtQVj0LjLgog+OSFIoc2Yba7ErPfuBD5CnJfkrGtRgTMKDxDX8BoeqHKH5suUYGDmNc+h140FWPtx3DBMMxL/nNMnoPLpog580F0civMm95TwXFnC4cLMc6+BNeAjArI9AnKNDEf3uiQ6XRX87L35suwpxdRgkGPlnV4/85uLUqJtDrnoHR/YL70fPBT3l28FZ/fDwTR2g6pdUofe2CDshGlCQSLmbd6O4Of/oKz75wtHy7bLgBVKkWNfvcfPdO7pCVjB9z87amvyNmT//NVvko1zzEGPIV2uTCWvkNgynWzjQPboWlHpONVSnQQeeXa9OB3X0DjjkSNmoe7z0OoIzn4X7kGdmUJgIsgYpVg+0siaqpSymeLC6wSlBUEwBWwMEoOIh89irHhM6iZjDsuqWKV95s3MGzBTOuFMkyMZpegxUIy5yElBb2PSa/luCqyg9OITFoLw55bTF5xgGZ1E3lzzHmjojzmWq2Fh2eulPPv+ZjFG/YCCiWgMFAYgA4fFQsmFCgUSoFSocF4084jDHzqK4aOXyh5xYF7YryuhW+PPndyw5pxHCkOcOMLSzmRPmWc2UNJu0GI1siWb1DeSqgrxu9DKVTmJxLYuxLbVLgvewBVs6kyO/9NuRqfD1YQ65PxiAiWaaPEhcFRgSEu9xLERgwzXFYwFGilMAtyMf/+NuYdi5Q+/+ZjpJLa+a3oXZvxewxoeWlhKJ8XoUSD3w9r58+uQG8Fh0ynP5leW7hZlq8/gMclvDqqM/Exnon+oJ066MkF8vA7qwloC5QdavDSrEuYLSes4IJoi5nfbKfrPz96ZMc+nyTGe0e+NLoDtqH4YsMe3vx6ywn1KvPif4yyTIVlKtQ5g6ByyLwczF6CraJwRSUiSY0imVV12yJKoXNWo7QNYmKHB4pIGsO9VFDHllA00vUGSDn7uIW3Fk8HpTCS6qNMM0eXFHYzqqRguDwoCWIvn3HsgKYEbdin//zlFBx/GDL5A3bqIzOzwIAbLk6jeb0qSmvhbxkLsmcv34bWQkiolOk7YvzgNygtSOnoKmHeHa/CFWiEjbv30evBhew7XJTZsXF1NbxbU1Cax95eh2WfwJwyKn5ilHZjKAPlrXT0PX4fSmus2PBLSzuuN4aYgEYFDiBWoLmIGzAQJFIqMcwcDDM8aBy1SYAg0XHHz4vvyG326jmI1uh9Gwg8fnYL/wONF/ifOAfsEsSw0Lu+gYNbj6khJeq0J9JfWjK9/83W7O2H8omJNri7T4vJAOM/WCMfLt0V7vhGiB8i4b92eE4kIAoDD43rVqNPu1T6t29Am4ZJuN0uUNZPqC0KLR42HzjIkIyFLWytufeKFoXRGGzan8vclTtOSDpZbo3CLiddXNWSMdGQ54NAUfNI5e/PxjI9uCqfAZ7otRgBlALbkMgYoPZtEiVSXvUTjVIm6keWVgaXz8xQwWJMw8Db826MXo+gej+M9B6Lq8NwRJlgA2veL6fiGb9U0v/FiRSa8/5B8MaizWhgyPn1SazkHfn9rgIZ++4GbGVgqDDvS0dMpSNVZyBc2jaZfw9uQ9O6lcvV5aGCkpde+WzLiMc/WENhcRBdZsQvX/kKpRVLs3J5Yd5GubnXmapnq1rywdodvPblZi5rl3ICJRGUlB+jVOu+qC8ysOwg1vJ3slydrlVSdOQ21s1HK8HsOASlFIanCkorzB2bUId2iBTlUvTOXbjC5YxILBEUcnwJIgLL3wDRGI3Og66jlatsY+sgRuYcCRbvxb90Bt4LRoV8TKIRNIY2HCKdrpLJVxLs/eWGXAyEqzo3AOC5jzfit4IopY9WU8RCJ5EG/+flabx1dzf1QyIBJFaKGnlHvzS1+JFLSa1W5UdVPlGCbcDYmRsoKA4OH9arKZVcii07CwgE7aSfbUQxPLgiI3z42dXrKy5+GI8O4J/7L+zJQ4SMizO0rxC7dS9U2Hhgth+CYbrQB7ZgPdEZmTCQqLrt8HuFEreNqFCZA26NZZio4xRIb1ksviM70W7BaNO/glZ3Q8ve2IaLksLdSM7XAmCbJiVuE9v1xydNRcepxh+i2lbl5M42SvKpU60G7RtVVyJCYaAYIYii1Nehy3BfQAkDOqbwzyvb/WQ9Nqwdr2bde76c+885FBQHyzWKAApBKwMEjhTm8/bi7MnD05uo/a8OxTBOYLxRBgx4DFtr3DWal+vq7k5XK7tBC3Gv/QgOH0HXao5qegHe+uceNUi0G6hMl1v01uWItxIqrQdGytnK0+p8kWAxqnaLbAD3gPsx7CKo3aZiMsXFE3XlODyWhUq7qEWFxpKuw3E3aoGIRsclYgJmp2sxWnYHrUJlcaTPieXtVDpt9x4u2vJ55p76n67azYyvt5BQKZqnhrVlcOf66vpnl8rrX24M116YSGKUWhmIMt2sndSP2tVif3b9Tpi1Xu5569uQw1QperSsztg+yVQr2clXhSmMfiWTw4ECLm3dkHf+cf6xz107R/T+HIyz+u/jVywEFZGIid7Bn4dMp0wyTZq7Qe57PQs7WIRlhEbCgz4/o176msGd64dHRhXS/1UZcx0KRNGjTe0TIhLAdRc2GvXvWSszAoVC1TgPrw1KIu7Vvmgx6JNQB/NvT3Pt8/9jd35IesmmL4WgD8SCrauQ5W9gV6qJf+mMGlG3z+ugomKX/qIO4RDpT0ekU0ambXvz5d5pywhIiDOq9J+AhOcapgQRrHDHKzNnEoVbK9Kb1jjh98bHuCd2rJuQ8eX6XFrUSyQmazaqVnPMYVMHG4+2n9632nYmXp9Oo1qVsXasFvXfoaAEO+xEcLUfjCt9dJY81r6FHMxeomq3UGWlzV+FRH+UUvzRJPwpIdOanAPYUuqKNCONowBbK7QG29BlfDJl/ioQFDWrxPyidydXqwzqIDl787F6pmF/OxP3jNunq2AJRs0mXNeysQKwXrlXjBqNUJf+H4bWqO2r4cv/Yq3/rIUrrilG9UYRNq9fv06ee/Y5hB8n1KjbRtG4SZPTilFr12XJmDFjyM/PJxgIoMN+N9Nl4o2KolHDRnTv3p0rLr+iY3R09NKTkadDhw691KPnhSPy8/IxTIONGzapvyyZCovssNImgF2qvGGUWclihs3LpR4WQ0Cr0NzJVlDyC5e8FFkaDNieW8y4dU25s+d9yN4VHBowmbeXwVXpwXviD2Q9Ynw3H/uaF3GdeWGI0s17Io3OEdfBHei0npPxREU2E+7YuYMX//tC2fV0FUqlAQMH0LhJk1Pe6Lt37ZLPv/ycDevWUzc5mRtuuPG4nXHP7j18vnDhccu2bOlS3njjdf71r/uWPP/8C/S6qNfv3rGDwWCH1atXIyJUrVr1ry2ZSiyOzoeOozaErhgVqxRK2LjryC969+qtuYgOmTQe+XgDL/zPTb1KZ5H93jb8rlyu7lrPZ386DlWzGa5m5TuGanSeotGP+xOUUkzIyCC+Uvwx15o1aZb9R2j05557lifGPYGIcOstt57QXG/evE+pXr06ylAcOniI8U+PZ87cD9mxYwf9+vbl1demyqCBg/6Sk8JTQqaACCIKQcp1TK3A0oJl61QpQzKjnBDSiFLMXr6Df115FieiMq/4/oBs3p0HykApjQCHfAEOFwpKuRh6fjKxB7MygjkLibpqOvxCffyK/ldk16hZs8EfdU6ya/fu8NZ9RVyluBN6X7OmzQpr1aoVWSvVpXMXrhx0pbz//nsErSDXjxxJ2zZtpWHDhsoh08mYOIZXMKiQkAmfKyuRQipgKYmO3aYkrN9xkBmLtsigLg1+VqPZtubeN9ZgGCq070mV9TNpotwu/u+yFphzb0HX6gDNupZ/rmjsZW+Ilbsdb7vBkFT/F3WWd9+dKb4iHy7TxZAhV6mCgoLhkyZmTF6yZCnPPPMMKSkpCmDlqpUyc+Y7bNr0HbZlUy81hX79+nP+eeVN9nM/niu5ubkoFD179MyKj48f+fob05YsXPg5eXl5tG7dittHj1lQvXr17msy18i3K1awetWqyP2bN29h6rSp4vV6+SUSxTAMJk2clD1v3if1fT4fRUVFjH14LK++8mq5dIu+XiRvz5jBxk2b8Hg8tG/XjpHXX599Rs0zyg06Bw4c+Gza66+lf/vtSgoLC6latSrt27ejf7/LlyQlJZ3zU/nx+Xy9333v3dmCYCiDQYMGKbfLfXI6tmXpk35MmrtevP1fEU+/KeLtN0Xc/UOHq/+rEnXFVPEVBVOHT/ifePtOEU+/KeLqHzrcZQ5Xv5elyqDXZMnGffJT7wsGbUZPXiLey6eKp/8U8fSfKp7+U8V9+VRxXz5FvP1flntfWyL+7OVScmddsTYsFOvIgQn+JW+I/5tpElg8VQIzbpeie+uLb3wP8T2UJoHCI4NKnz/3o49EKSWAKKVk187dW46Xj5SUFFFKiWma8v13m6Vly5ailBLDMCQne6sE/EFuvulmMQxDlFLHHAMHXilFvuJU29LYlqZtu3aR+6dNe12aNGkSubc0P82bNxdfYVHzhx58SEzTjFwDxDAMMQxDqlevLqXPLHt8/PEn5Z61Y/vOgorSDRlyVSRdXFycFOQXdrMtja+wqPlVQ66O5KlatWri9XpFKSWVK1eWTz6ZF3nv/xYtksTExEhZy9ZBbGysTJw4UWxLs3vXnszSd1WtWjVyf0mJn169Lo6U6aknn6qwTL/XcUrc3CHjgg6bN48u7lYS2tNka0mV0PrV49rHlFLkFwfofv8njHt3nfhKrN4Vpdu6N1+ueuILeW3hZhLjDOITTBIrR5GY4KVa5SgSq0TRLDWJu/q1HmzPHwf1zkYanq8CH9w/irfvwZj5L+Sdh5AVb+FKuxTv1VOy5cgR5MC26T8yt/D9lElXa83gqwaTlZUVOZ9QOWHUgw/+R557/jlEhHM7dSJ7Sw7ZW3LofuGFALzzztuMGjXq6NwrvJlPa82wYX+jUnw8EyZMYOTI63G5XIgI69at4/XXp2UNHXot06e/RfO05pE67Nu3H89MeobHHn3sV7Vp9/T0stKBNZlrFgBcf/31WW9OfwMR4fHHHmfP7r1q/boN1K1blyNHjnDlwIHs3LlTAG668e8cOnQIgLFjx7Jv7/7J8+Z9yqWX9Ka4uJhgIPijdXr9yOvlk08+RkS44YYbGD36dvWnV/Ni3C7ssGWudF6iwjqeisyrNLYqZxT/oXUCw4gmWCI8/G4Wy7MPzn52ZNsF1SvHROIgfL1xv9z+6hI2bDtE/3NSeWDgWaTWqFRxIJZty8X/3dd4Rk6H778Sz+pZ6G43YzTvETLf5yzBN/8h1MZ59b3VGmHWbBJ3vJbqf0X/FlUTq0pBYQFFhT5sbfPO2zOpV69eOb/UtytW0KfPZYwZM4aWLVqOKioqGvXkU09G/CdPPfkUycnJCuDF51+Uxk0aYVkWU155mTFjxkjjxo1V2cHlgq5dmf3B7PperzcH4PvN38vnC0OBbPML8qlTp46qU6cO09+cLllrQyQ+55yOP2rN+7lo0LBhud87d+1k8ZLFMv2tNxER0tLSuOOOOxVAvXr11E033ST33HMP+QX5PPPMJO69977h69avi6iOV1w+gMTExJHp3dJHpndLZ9HXi6Tt2W1bHI9I9913n0x7/TUAevToyfjxE076nO2UkCkxzoMpBrp0QUOp/l2GNMfdUiNgKIWhTC7rUIdrLqhPlzOT0mOijg1/3Klpklr2WB8O5BV/9t7SbekDx33JOUnIbQ2zqB/ci1Kh5UmiDWTXGtz12kNK2xrGUz336TrNURfdqTDcIfGd3Bp3/baiD+7AbJo+WLk9vuM17NIlS46RogWFBcecGz16NE+OeypS0vfeezfD7/cDULlyZc5uc3TjX0pKimrYsKFs3LgRrTVz5n7ImMZ3lHtmv759KSUSgNvtPo5qb/325mqrvNQwTZN3Z86MmNQbNWpc7npKSr1IfX06/1MeGjv25djY2MkFBQXYtk3nLp249ZZbZciQq0hNTVWdO3U+LjkyMjLk8SdCkvXMM89k+vTpo07aPKns/PFUkKlD02rTo6M85QwQIUODRgipeQYKQ461bBlK0bVlDVY+3ZvXx3RRPdvUVhURqSyqJ0R3v6FHU7XkiUtU05YpDJsVxYqs7whu3YCdswq9bTXKFoyedyGfT9pn5eXAwMdQRvkG8dZtq6Jb91MqKv6tHzMfz537EatWr2bD+o1szdnG3j37pjdPa35MZzi3U6dyv7///vvI/2vWrHnMItszatWKdMDs7OxfHKvBV+z7zdt0/bp15SVV/QZ8t+n7SB7nzplDYmIVKT2uu25YpL527NiB2+Xmvnvvi5T5wIEDPPDvB2jStDEdzukgU6dNrbCweXl5/N8/7o68p1OnziTEJ0z8y1jzqiZEDZl5d/rgm59fQs6BQ6AECa+ECO3akVjDNCKqX0RKGXD3ZS25/8rWyjBOXIq7TYNberVUnZvUklsm1OXRHkm0i96LSAmC4NqZif3lC6jzRqBqtf7FakKrlq2ya1ZgGv9h5xctxxDxeGkBrKBVZlD55eNgQUHBb96mc+bOjeQ5KSmJtDPTVBnjLE2aNuHqq6+p8F6PJzRo3XnnXeqsNm1k/PjxLFjwGcFgENu2WbF8OcOvu45vl38rEydOLO/7Q3HnnXcx7sknsCyLl1+ezJAhQ6RL5y5/DTUP4ILmNVXWpMtYsy1X1u/IY8P2PMbNzgIF/oDdp1+HZN76/LtwhYV214659Ez+PfisX11JretXU8/eni7D/vMqr9V+jwbBrSgVRIsXo1o9zPS76kc6tb+gt1r14WwdVwUj7SLF77gWrEHDo/zbu3cvWuty0mnfvr0R0jVo2OAXr0sLhFXJ3wqZWZmycMGCSN6uGzYcl8tFcnIySilEhJpnnMFdd971kxlO75au0rulk5ubO2vWrA/6TJw0kXXr1iEiPPf8s1w3/Do5o+YZEatNfEI8Y8eOVUVFRTJxUga2bXPjjTewYvm3HU7W8qZTquYd9VEozkqtrq46r6Eae/XZ6pI2dQGDMVNXpPc+u466tlsj7PBCiZbJVXlocLvfrCe3Sk1UIwb2YFrKg3gf3Jju/s+WdNeD69ONMZ8pXZz3pt65Vqxda8Q/efDswoXjkNdvx1o48XcN25PerTuucKDJvLw81m1YF3lfbm7urJzsnKNp07v/ino3yo3tvwb5+fm3DR9+HbYdWiJWr1497r777lEAF3S7IJJu8ddfs21b+Yi5q1avkl6X9JJZs2dJSLrNkcysTAGoVq3aZcOHj1BLlyxrUSus3ob8YpsrzMdDDz3UJzU1FYBNmzbx0NiHlvwl5kzHw/M3dMqqExPLzEU5PPpOpkwY3qHGpe3roEzFHf3S+K0/AzO8e9Ma89cepki8sSoqbqGKiluoXB78/3uhYyCjJ1ZGH9i+juirX0alj8De+PHvWv7k5GQ1fPiIiMR59OFHsW0by7K48647+1h2aBX9pZf0pqI52M82ACUeXc82d+5clq9YLl8t+upnDRQzZsyIe+XVKfLKq1Pk6fFPS/sO7TJWhZ3AtWrV4oMPZhEfHz8RoO9lfVVaWhpKKYqLi7nssj4sXrJY8vPzb5v/2Xzp2/cy5n/6Kbt27uTgwYNvjhw5gq5dL+Dxxx+XzKxMyc3NnZWZlZkVDAbD6qCHDu07VJiv2NjYD5999jkMw0BEGD/+aVauWnlyY5adCqet9SOOry+ydkncwNfE7PeqPDpzpQT8FhPe2yTFxcHY38PRNmbyUhn85Gdy/xsrZdaSrWJbmuC+bAl897UENn0thY93laKxHaToH43Emj22QidgRU7bitJZYadtabp3Zs485nnFRSVJpQ5QpZTUr19f6tWrF/ndpct5cmB/7ksRp+3ZbSPPe/bZZ8s9r2fPiyLXxo17MnItIyNDDMOIXFNKSatWrX7SaVs2fdnD7XLLkCFXVejQ3bI5W1o0b3HMPaWO1dGjbxfb0hQW+Dpce+3fIud/6LR1u9zy/HPPi21p9uze+01FTlvb0gy95tpIftu0aSMlJf6T5rQ9JXOmHxtSuzQ7Q00d3UWuHr+A+99cwZ6DxfLY0HY1PG7T93vkpUOTqtzw+Ea+b5DP33s2XgBgVK2nqBoy3Xqvn/GSrHx/hIpNhDZ9K8x6St0Ubr7p5rKj5CPHs/QNHTqUw4cOA9AirUUFk3HP/mmvTVMjRoyQ6W9OZ03mGiwrSIf2HenTtw8DLh+gTPNo2OIBAwbQsWNHANq1a1/uWQMHDKBRw4aAonXr1pHzN990i4ryRsn7H3zAkbwjJNdNpk+fPhXWT5PGTbj5plsqbkdD0bpVKy66qFeFBpdSn9KyZcuTpk9/c9+HH84hO2cLbo+H1q1aM3ToUDqd20kBREdHL53y8hR16623ytsz3mbVmlUcPniISgnxNE9rzrBhw2jVspUCcLlca2++6ZaOADEx5bfiPPnkk9MTKicMLjXuZGVlSZuz2pwUY8RJ37b+c0s1Z9l2GTbpK4oDQVrUq8wzN3Th7PrVKrxda+FQof/NIr812LI1bpdJrNeVUSXOM/qnJulLN++XR99ay9QxnUclxHhOiUnVwZ8DJ5VMJzo8fLslV67J+IKcvYUoQ3FV5waMviyNtLpHv6O0bHOuXPvU12w9mIeUDZEsivp1onn79gtp/iPfXfIH7SSXofabzmc5Hfza/m3/wT92Vlgc7P3vt1bOfvHTTdhWaPdt20ZJ9GmfTJe0JP7+3DI2bM9FAbrsXg1RKGzSWzVgzn3nO0EXHDhkiphEdxXIhNkbefubdeSXaEzlQnRoC7sSC5Sgy8aLCIcQrlYljp3/HfCXItPxYiNUdF5sC7SVhNZJiJ2KbaeCxIod7AgSC8oXdqbHhv4qH+gkZbiXopRPme4loswcDGO/Mt37KfMZmr9aFKbThkylKAnYqd9s2p/9ZdYePlm5m7XbDmJhl9Ehy8TWQ6iRGM+2F65QpyMJSn+LbYHfN1yKCyZg+eIIFEJhHvjzUCWFWLZGBQrQvjyMYAmG3w9WAcFAAQQsLCsfl+XHCPgRy4KgjRksRgcttNsGy4cKSnjTpIGlQnu8DFUad9wktNbAQisTjYkhOrxTWqPRiGlguQxMFYNL3ARjY3CbXkyXF5SJRFdCvFXQXjfiroQZFYOKTsAVVRkdHQcxCUhsIkQlYMQljlJR8RMp4w87HYh52pHph4aHTne9K6t3FIAywsuOSvfoagwppnvrJsy+J/0P0wraX9ScI7uyxHcAivOg6CDiK0QVHgJ/IaroEOI7DMWHoSQ/FPTf70MHhEKXwqsVphK0EcDCwBQw0GhMRJnhDZUWCoWW0g2YdniB8A9zU7pq30JLKN5GZCxSoWuGbWOIwhRF0LSxlUbw4NF+RLsBQYcD4xCOvitigRFa8qQALeHzgCWhIM8uwwjnUWNioFRo06igEKUw3SZ445DY6qhKtTATakJ8DVRCTXSl6pBQGyPhjEeIqXyvMgyHTL8FvtqwV66Z8BUH8ooxlOA1A5RYMQgWzWol8upt59KiXrWTRiaxLSRvb4E6uD2O/F3IoV1I7jb04W24D+6guMSH26XB4wZvHNqognZFg8dLMCoKj+lCuaLA7QGXC1xelMuLMr0oTyUsw43p0pimB8t0oXChDFcokL/LG44ZLmC6QuGUlYLIZz3LVkPpoCOI1ijLBkOwdRAXYGhBdBAsC1sFcAWDYNtYqgQdNMEqQgWKUH4/2BbKDiKBErB9EPAh/iOogB+CfnRJIUawCIIWVtAKvdUIv11CK2EMFCI2Wmu0cTTADlIaeMfAMATRClPAMg1MsbGjE3DFVkMq1UFXrYMnqR5SvSEqufV0Van6EIdMJ4hA0I7dfbCoMKlydMdor7nUH9SpIhIb7XWtPSnSxnfkNlW4L8M+sgtdUoTLG4WYUaiYeDCjUZ6Yfcobk4En6i1Mb06p+vJjqsvpNt/4WfnVFgRKuonf90/xF6YTKER8+Zj+fCjKwy7Jw/LlYxQdQhUfxirchyo6BL5d2L4gphGOZCUCmCjDRLSJlKqcSiFotBmSgt7abXENfhpVNUU5ZHLgoJSHJYXdyN+/gIL9kL8XdXg3HNyBHNmJ7NmAKjgUUhuxsJRCK4Vbl8Al9+O64O8nhUwup5kcnA4wouIWEhWnSKpfXhqEpaIc3imydQVq+xrUnvWYh7dAlYYYrftmOWqeAwe/t9r5m7EoYs5x4ODPh5NNJIdMDhw4cyYHDk616HPI5MDBb0KciuCoeQ4c/AZEcsjkwMFvRCRHzXPwp+nIfwQ4ksmBQySHTA4cIjlkcuDgT0ckgP8HKwwo1CpQ2wgAAAAASUVORK5CYII=" alt="Your AI Front Desk" width="182" height="70"></a>
+    <a class="site-link" href="https://youraifrontdesk.com/en">youraifrontdesk.com</a>
+  </div>
+</header>
+
+<section class="intro">
+  <h1>Phone system integration form</h1>
+  <p>Tell us about your phone system and how you want calls handled. Our engineers use your answers to connect your PBX to your AI receptionist.</p>
+  <div class="meta">
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>About 5 minutes</span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg>Confidential</span>
+  </div>
+</section>
+
+<main>
+  <div class="card">
+    <div class="notice" role="note">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+      <p><strong>Your information is kept strictly confidential.</strong> It is used only to plan and configure the integration with your phone system, is accessible to our integration team alone, and is never shared with third parties. Please don't enter passwords or SIP credentials; we'll arrange a secure exchange for those.</p>
+    </div>
+
+    <!-- Stepper -->
+    <nav class="stepper" aria-label="Form progress" id="stepper">
+      <ol id="steps">
+        <li class="step current"><button type="button" data-go="0"><span class="dot"><span class="num">1</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Contact</b><small>Your details</small></span></button></li>
+        <li class="step"><button type="button" data-go="1"><span class="dot"><span class="num">2</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Departments</b><small>Where calls go</small></span></button></li>
+        <li class="step"><button type="button" data-go="2"><span class="dot"><span class="num">3</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Call Handling</b><small>Caller experience</small></span></button></li>
+        <li class="step"><button type="button" data-go="3"><span class="dot"><span class="num">4</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Phone System</b><small>PBX details</small></span></button></li>
+        <li class="step"><button type="button" data-go="4"><span class="dot"><span class="num">5</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Numbers &amp; Transfers</b><small>Forwarding &amp; routing</small></span></button></li>
+        <li class="step"><button type="button" data-go="5"><span class="dot"><span class="num">6</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Continuity Number</b><small>Backup line</small></span></button></li>
+        <li class="step"><button type="button" data-go="6"><span class="dot"><span class="num">7</span>
+          <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+          <span class="lbl"><b>Finish</b><small>Review &amp; send</small></span></button></li>
+      </ol>
+      <p class="step-caption" id="stepCaption"></p>
+      <p class="step-msg" id="stepMsg" role="status" aria-live="polite"></p>
+    </nav>
+
+    <form id="intakeForm" novalidate>
+
+      <!-- 1 Contact -->
+      <section class="panel active" data-step="0">
+        <div class="panel-head"><h2>Business &amp; Contact</h2><p>Who we'll work with during setup.</p></div>
+        <div class="grid">
+          <div class="field"><label class="l" for="company">Business name<span class="req">*</span></label><input id="company" name="company" type="text" required autocomplete="organization"><div class="err">Enter your business name.</div></div>
+          <div class="field"><label class="l" for="contactName">Contact person<span class="req">*</span></label><input id="contactName" name="contactName" type="text" required autocomplete="name"><div class="err">Enter a contact name.</div></div>
+          <div class="field"><label class="l" for="email">Email<span class="req">*</span></label><input id="email" name="email" type="email" required autocomplete="email"><div class="err">Enter a valid email address.</div></div>
+          <div class="field"><label class="l" for="phone">Phone<span class="req">*</span></label><input id="phone" name="phone" type="tel" required autocomplete="tel"><div class="err">Enter a phone number.</div></div>
+          <div class="field full"><label class="l" for="role">Role / title</label><input id="role" name="role" type="text" placeholder="e.g. Office manager, IT lead"></div>
+        </div>
+      </section>
+
+      <!-- 2 Departments -->
+      <section class="panel" data-step="1">
+        <div class="panel-head"><h2>Departments</h2><p>Tell us which departments callers can be transferred to. Each department becomes a destination the AI agent can route calls to. You'll use this list in the next steps.</p></div>
+        <div class="grid">
+          <div class="field"><label class="l" for="branchCount">How many departments do you have?<span class="req">*</span></label>
+            <input id="branchCount" name="departmentCount" type="number" min="1" max="20" value="1" required inputmode="numeric">
+            <div class="err">Enter a number from 1 to 20.</div></div>
+        </div>
+        <h3 class="sub">Department details</h3>
+        <p class="sub-p">Add one department per card. Give it a name and the words callers say to the AI agent when they ask for it. If the same department operates at more than one location, add it once for each location and fill in its location.</p>
+        <div id="branches"></div>
+      </section>
+
+      <!-- 3 Call handling -->
+      <section class="panel" data-step="2">
+        <div class="panel-head"><h2>Call Handling</h2><p>Choose what callers experience when they dial in, and when you're open.</p></div>
+
+        <div class="field" data-group="handling">
+          <span class="q">How should incoming calls be handled?<span class="req">*</span></span>
+          <div class="opts two">
+            <label class="opt"><input type="radio" name="handling" value="IVR menu">
+              <b>IVR menu</b><small>Callers press a key to choose</small>
+              <span class="opt-hint">Callers hear a short menu, such as “Press 1 for Sales, press 2 for Customer Service,” and are routed to the department they choose.</span></label>
+            <label class="opt"><input type="radio" name="handling" value="Direct to AI agent & Voicemail">
+              <b>Direct to AI agent &amp; Voicemail</b><small>The AI answers first, voicemail as backup</small>
+              <span class="opt-hint">The AI agent answers every call right away, understands the request, helps the caller, and transfers to the right department when needed. If no one is available, the caller can leave a message for your team to review and return.</span></label>
+          </div>
+          <div class="err">Choose how calls should be handled.</div>
+        </div>
+
+        <div class="cond ivr" id="ivrBox">
+          <h3 class="sub">IVR menu options</h3>
+          <p class="sub-p" id="ivrSub">Assign each menu key to one of the departments you added.</p>
+          <div class="field" id="ivrField">
+            <p class="counter" id="ivrCounter"></p>
+            <div class="rows-head" aria-hidden="true"><span>Key</span><span>Department</span><span>Handled by</span><span></span></div>
+            <div id="ivrRows"></div>
+            <div class="err">Complete every menu option: choose a department, how its calls are handled, and the extension number if you select Extension.</div>
+          </div>
+          <button type="button" class="text-btn" id="addIvr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Add menu option</button>
+        </div>
+
+        <h3 class="sub">Business hours</h3>
+        <p class="sub-p">Set the days and times your team is available to take transferred calls.</p>
+        <div class="grid">
+          <div class="field"><label class="l" for="timezone">Time zone</label>
+            <select id="timezone" name="timezone">
+              <option value="">Select time zone</option>
+              <optgroup label="North America">
+                <option value="Pacific/Honolulu">Hawaii (HST) · UTC−10</option>
+                <option value="America/Anchorage">Alaska (AKT) · UTC−9/−8</option>
+                <option value="America/Los_Angeles">Pacific Time (PT) · UTC−8/−7</option>
+                <option value="America/Denver">Mountain Time (MT) · UTC−7/−6</option>
+                <option value="America/Phoenix">Arizona (MST, no DST) · UTC−7</option>
+                <option value="America/Chicago">Central Time (CT) · UTC−6/−5</option>
+                <option value="America/New_York">Eastern Time (ET) · UTC−5/−4</option>
+                <option value="America/Halifax">Atlantic Time (AT) · UTC−4/−3</option>
+                <option value="America/St_Johns">Newfoundland (NT) · UTC−3:30/−2:30</option>
+                <option value="America/Mexico_City">Mexico City (CST) · UTC−6</option>
+              </optgroup>
+              <optgroup label="South America">
+                <option value="America/Bogota">Bogotá / Lima · UTC−5</option>
+                <option value="America/Caracas">Caracas · UTC−4</option>
+                <option value="America/Santiago">Santiago · UTC−4/−3</option>
+                <option value="America/Sao_Paulo">São Paulo / Buenos Aires · UTC−3</option>
+              </optgroup>
+              <optgroup label="Europe & Africa">
+                <option value="UTC">UTC / GMT · UTC±0</option>
+                <option value="Europe/London">London (GMT/BST) · UTC+0/+1</option>
+                <option value="Europe/Paris">Central European Time (CET) · UTC+1/+2</option>
+                <option value="Europe/Athens">Eastern European Time (EET) · UTC+2/+3</option>
+                <option value="Europe/Istanbul">Istanbul · UTC+3</option>
+                <option value="Europe/Moscow">Moscow · UTC+3</option>
+                <option value="Africa/Lagos">West Africa (Lagos) · UTC+1</option>
+                <option value="Africa/Cairo">Cairo · UTC+2/+3</option>
+                <option value="Africa/Johannesburg">South Africa (SAST) · UTC+2</option>
+                <option value="Africa/Nairobi">East Africa (Nairobi) · UTC+3</option>
+              </optgroup>
+              <optgroup label="Middle East">
+                <option value="Asia/Baghdad">Baghdad · UTC+3</option>
+                <option value="Asia/Riyadh">Riyadh / Kuwait / Qatar · UTC+3</option>
+                <option value="Asia/Amman">Amman / Beirut / Damascus · UTC+2/+3</option>
+                <option value="Asia/Jerusalem">Jerusalem (IST) · UTC+2/+3</option>
+                <option value="Asia/Tehran">Tehran · UTC+3:30</option>
+                <option value="Asia/Dubai">Dubai / Abu Dhabi · UTC+4</option>
+              </optgroup>
+              <optgroup label="Asia & Pacific">
+                <option value="Asia/Karachi">Karachi · UTC+5</option>
+                <option value="Asia/Kolkata">India (IST) · UTC+5:30</option>
+                <option value="Asia/Dhaka">Dhaka · UTC+6</option>
+                <option value="Asia/Bangkok">Bangkok / Jakarta · UTC+7</option>
+                <option value="Asia/Singapore">Singapore / Hong Kong / Beijing · UTC+8</option>
+                <option value="Asia/Tokyo">Tokyo / Seoul · UTC+9</option>
+                <option value="Australia/Perth">Perth (AWST) · UTC+8</option>
+                <option value="Australia/Sydney">Sydney (AEST/AEDT) · UTC+10/+11</option>
+                <option value="Pacific/Auckland">Auckland (NZST/NZDT) · UTC+12/+13</option>
+              </optgroup>
+              <option value="Other">Other (mention it in the last step)</option>
+            </select>
+            <span class="help">All opening hours below use this time zone.</span></div>
+        </div>
+        <div class="field" id="hoursField" style="margin-top:18px">
+          <span class="q">Weekly schedule<span class="req">*</span></span>
+          <div class="h-list" id="hoursRows"></div>
+          <span class="help">Turn a day off if you're closed. Hours are the same every week.</span>
+          <div class="err" id="hoursErr">Open at least one day.</div>
+        </div>
+        <div class="grid" style="margin-top:18px">
+          <div class="field"><label class="l" for="afterHours">After hours, calls should</label>
+            <select id="afterHours" name="afterHours">
+              <option value="">Select</option>
+              <option>Go to voicemail</option>
+              <option id="optIvrAfter">Follow the same IVR menu</option>
+              <option>Forward to an on-call number</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Phone system -->
+      <section class="panel" data-step="3">
+        <div class="panel-head"><h2>Your Phone System</h2><p>Technical details about the phone system your business uses today.</p></div>
+        <div class="it-callout" role="note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+          <p><strong>Your IT team or phone provider can help with these.</strong>This step asks for technical details about your phone system. Share it with whoever manages your phones so every answer is accurate.</p>
+        </div>
+        <div class="grid">
+          <div class="field"><label class="l" for="pbx">PBX brand &amp; model<span class="req">*</span></label><input id="pbx" name="pbx" type="text" required placeholder="e.g. 3CX, RingCentral, Avaya IP Office"><span class="help">The phone system your business uses today.</span><div class="err">Enter your PBX brand and model.</div></div>
+          <div class="field"><label class="l" for="carrier">Phone number carrier</label><input id="carrier" name="carrier" type="text" placeholder="e.g. Verizon, AT&amp;T, Twilio"><span class="help">Who provides your phone numbers (DIDs).</span></div>
+          <div class="field full" data-group="hosting"><span class="q">Where is your PBX hosted?<span class="req">*</span></span>
+            <div class="choices">
+              <label class="pill"><input type="radio" name="hosting" value="Cloud / hosted"><span>Cloud / hosted</span></label>
+              <label class="pill"><input type="radio" name="hosting" value="On-premises"><span>On-premises</span></label>
+            </div>
+            <div class="err">Choose where your PBX is hosted.</div>
+          </div>
+          <div class="field full" data-group="managedBy"><span class="q">Who manages your PBX?<span class="req">*</span></span>
+            <div class="choices">
+              <label class="pill"><input type="radio" name="managedBy" value="In-house IT team"><span>In-house IT team</span></label>
+              <label class="pill"><input type="radio" name="managedBy" value="Third-party provider"><span>Third-party provider</span></label>
+            </div>
+            <div class="err">Choose who manages your PBX.</div>
+          </div>
+          <div class="field full cond" id="providerBox"><label class="l" for="providerContact">Provider contact</label><input id="providerContact" name="providerContact" type="text" placeholder="Company, contact name, email and phone"></div>
+          <div class="field"><label class="l" for="concurrent">Max simultaneous calls</label><input id="concurrent" name="concurrent" type="number" min="1" inputmode="numeric" placeholder="e.g. 10"><span class="help">Calls your system can handle at once.</span></div>
+          <div class="field"><label class="l" for="volume">Approx. calls per day</label><input id="volume" name="volume" type="number" min="0" inputmode="numeric" placeholder="e.g. 120"><span class="help">A rough estimate is fine.</span></div>
+        </div>
+      </section>
+
+      <!-- 5 Numbers & transfers -->
+      <section class="panel" data-step="4">
+        <div class="panel-head"><h2>Numbers &amp; Transfers</h2><p>How calls reach your AI agent, and how the AI agent reaches your departments.</p></div>
+        <div class="it-callout" role="note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+          <p><strong>Your IT team or phone provider can help with these.</strong>Call forwarding and transfer details are set up in your phone system or with your carrier. Share this step with whoever manages your phones.</p>
+        </div>
+
+        <div class="note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+          <p><strong>Why we need your main business number:</strong> This is the number your customers already call. Calls will be forwarded to your dedicated Your AI Front Desk number so the AI agent can answer them. We use it to configure your agent and test forwarding before go-live. Your customers keep using the same number. <strong>Forwarding is configured on your side</strong> (through your PBX or carrier); we'll provide the destination number once it's ready.</p>
+        </div>
+        <div class="grid">
+          <div class="field"><label class="l" for="aiNumber">Main business number<span class="req">*</span></label>
+            <input id="aiNumber" name="aiNumber" type="tel" required placeholder="e.g. 555-246-1234" autocomplete="off" inputmode="tel">
+            <span class="help">The number on your website, Google listing and signage. Its calls will be forwarded to Your AI Front Desk.</span>
+            <div class="err">Enter your main business number.</div></div>
+        </div>
+
+        <h3 class="sub">Transfer method</h3>
+        <p class="sub-p">How the AI agent connects a caller to each of your departments.</p>
+        <div class="field" data-group="transferMethod">
+          <div class="opts">
+            <label class="opt"><input type="radio" name="transferMethod" value="did">
+              <b>Direct DID</b><small>Each department has its own number</small>
+              <span class="need"><strong>You'll provide</strong>A direct number (DID) for each department</span>
+              <span class="opt-hint">The AI dials the department's external number (DID) over the PSTN. Example: <code>555-246-1234</code></span></label>
+            <label class="opt"><input type="radio" name="transferMethod" value="didext">
+              <b>DID + extension</b><small>Main number, then DTMF digits</small>
+              <span class="need"><strong>You'll provide</strong>The main DID and the extension digits for each department</span>
+              <span class="opt-hint">The AI dials a main DID and, once connected, sends DTMF digits to reach the extension. Example: <code>555-567-7765</code> then <code>#300</code></span></label>
+            <label class="opt"><input type="radio" name="transferMethod" value="sip">
+              <b>Extension via SIP</b><small>Direct to internal extensions</small>
+              <span class="need"><strong>You'll provide</strong>A SIP extension (or SIP address) for each department</span>
+              <span class="opt-hint">The AI transfers straight to an internal extension over a SIP trunk to your PBX. Requires a reachable SIP destination. Example: <code>sip:503@pbx.yourdomain.com</code></span></label>
+          </div>
+          <div class="err">Choose a transfer method.</div>
+        </div>
+
+        <!-- Per-branch transfer details -->
+        <div class="cond" id="transferWrap">
+          <h3 class="sub" id="transferTitle">Transfer details</h3>
+          <p class="sub-p" id="transferSub"></p>
+          <div id="transfers"></div>
+        </div>
+
+        <!-- SIP shared settings -->
+        <div class="cond" id="sipBox">
+          <h3 class="sub">SIP connection</h3>
+          <p class="sub-p">Shared settings for all departments: how your PBX accepts SIP transfers.</p>
+          <div class="grid">
+            <div class="field full"><label class="l" for="sipHost">PBX SIP address</label><input id="sipHost" name="sipHost" type="text" placeholder="e.g. pbx.yourdomain.com or a public IP"><span class="help">Needed if you entered extensions only, so we know where to send them.</span></div>
+            <div class="field full"><span class="q">Transport &amp; port</span>
+              <div class="choices">
+                <label class="pill"><input type="radio" name="sipTransport" value="TLS 5061"><span>TLS · 5061</span></label>
+                <label class="pill"><input type="radio" name="sipTransport" value="TCP 5060"><span>TCP · 5060</span></label>
+                <label class="pill"><input type="radio" name="sipTransport" value="UDP 5060"><span>UDP · 5060</span></label>
+              </div>
+            </div>
+            <div class="field full"><span class="q">Authentication</span>
+              <div class="choices">
+                <label class="pill"><input type="radio" name="sipAuth" value="IP allowlisting"><span>IP allowlisting</span></label>
+                <label class="pill"><input type="radio" name="sipAuth" value="SIP username & password"><span>Username &amp; password</span></label>
+                <label class="pill"><input type="radio" name="sipAuth" value="None"><span>None</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="note warn" style="margin-top:16px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+            <p>Don't enter SIP usernames or passwords here. If credentials are required, we'll share a secure method to exchange them.</p>
+          </div>
+        </div>
+
+        <h3 class="sub">If no one answers a transfer</h3>
+        <p class="sub-p">What should happen when the department doesn't pick up?</p>
+        <div class="field">
+          <div class="opts two">
+            <label class="opt"><input type="radio" name="noAnswer" value="Send to voicemail">
+              <b>Send to voicemail</b><small>Caller leaves a recording</small>
+              <span class="opt-hint">The caller is passed to your voicemail so they can leave a message.</span></label>
+            <label class="opt"><input type="radio" name="noAnswer" value="Try a backup number">
+              <b>Try a backup number</b><small>A second number rings next</small>
+              <span class="opt-hint">The AI transfers to a backup number that you provide below.</span></label>
+          </div>
+        </div>
+        <div class="cond" id="backupBox">
+          <div class="grid" style="margin-top:16px">
+            <div class="field"><label class="l" for="backupNumber">Backup number<span class="req">*</span></label><input id="backupNumber" name="backupNumber" type="tel" required placeholder="e.g. 555-246-1299"><div class="err">Enter a backup number.</div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 Continuity number -->
+      <section class="panel" data-step="5">
+        <div class="panel-head"><h2>Continuity Number</h2><p>A second line on your phone system that keeps your service available 24/7. Calls stay on the AI route as usual; if one ever can't be delivered to the AI agent, for example during carrier or network maintenance, it passes automatically to this number. Callers are connected as normal and never hear a busy tone or silence.</p></div>
+        <div class="it-callout" role="note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+          <p><strong>Your IT team or phone provider can help with this.</strong>The continuity number is set up in your phone system or with your carrier. Share this step with whoever manages your phones.</p>
+        </div>
+        <h3 class="sub first">How your two numbers are set up</h3>
+        <p class="sub-p">Your main business number is forwarded to the AI agent. Your continuity number is never forwarded: it goes straight to the IVR menu your main business number uses today, so callers always reach your team.</p>
+        <figure class="flow sketch" aria-label="How your two numbers are set up" style="margin-inline:0">
+          <svg class="wide" viewBox="0 0 720 222" role="img" aria-label="Your main business number is forwarded to your Your AI Front Desk number. Your continuity number has the same settings as your main business number, is not forwarded to the AI, and goes straight to your current IVR menu.">
+            <defs>
+              <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1D5BD8"/></marker>
+              <marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9A6200"/></marker>
+            </defs>
+            <g class="fn main"><rect x="8" y="20" width="226" height="62" rx="12"/><text class="ft" x="121" y="47" text-anchor="middle">Main business number</text><text class="fs" x="121" y="66" text-anchor="middle">The number customers call</text></g>
+            <line class="fl" x1="234" y1="51" x2="479" y2="51" marker-end="url(#ab)"/>
+            <text class="fs blue" x="356" y="41" text-anchor="middle">Forwarded to the AI</text>
+            <g class="fn ai"><rect x="486" y="20" width="226" height="62" rx="12"/><text class="ft" x="599" y="47" text-anchor="middle">Your AI Front Desk number</text><text class="fs" x="599" y="66" text-anchor="middle">The AI agent answers</text></g>
+            <line class="fl link" x1="121" y1="82" x2="121" y2="140"/>
+            <text class="fs" x="133" y="115">Same settings</text>
+            <g class="fn cont"><rect x="8" y="140" width="226" height="62" rx="12"/><text class="ft" x="121" y="167" text-anchor="middle">Continuity number</text><text class="fs" x="121" y="186" text-anchor="middle">Backup line on your phone system</text></g>
+            <line class="fl dash" x1="234" y1="171" x2="479" y2="171" marker-end="url(#aa)"/>
+            <text class="fs amber" x="356" y="161" text-anchor="middle">Goes straight to your IVR</text>
+            <text class="fs" x="356" y="189" text-anchor="middle">Never forwarded to the AI</text>
+            <g class="fn"><rect x="486" y="140" width="226" height="62" rx="12"/><text class="ft" x="599" y="167" text-anchor="middle">Your current IVR menu</text><text class="fs" x="599" y="186" text-anchor="middle">Same menu callers hear today</text></g>
+          </svg>
+          <svg class="narrow" viewBox="0 0 340 372" role="img" aria-label="Your main business number is forwarded to your Your AI Front Desk number. Your continuity number has the same settings as your main business number, is not forwarded to the AI, and goes straight to your current IVR menu.">
+            <defs>
+              <marker id="nb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1D5BD8"/></marker>
+              <marker id="na" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9A6200"/></marker>
+            </defs>
+            <g class="fn main"><rect x="30" y="4" width="280" height="56" rx="12"/><text class="ft" x="170" y="28" text-anchor="middle">Main business number</text><text class="fs" x="170" y="47" text-anchor="middle">The number customers call</text></g>
+            <line class="fl" x1="170" y1="60" x2="170" y2="91" marker-end="url(#nb)"/>
+            <text class="fs blue" x="182" y="80">Forwarded to the AI</text>
+            <g class="fn ai"><rect x="30" y="96" width="280" height="56" rx="12"/><text class="ft" x="170" y="120" text-anchor="middle">Your AI Front Desk number</text><text class="fs" x="170" y="139" text-anchor="middle">The AI agent answers</text></g>
+            <g class="fn cont"><rect x="30" y="196" width="280" height="56" rx="12"/><text class="ft" x="170" y="220" text-anchor="middle">Continuity number</text><text class="fs" x="170" y="239" text-anchor="middle">Same settings as your main business number</text></g>
+            <line class="fl dash" x1="170" y1="252" x2="170" y2="307" marker-end="url(#na)"/>
+            <text class="fs amber" x="182" y="274">Goes straight to your IVR</text>
+            <text class="fs" x="182" y="291">Never forwarded to the AI</text>
+            <g class="fn"><rect x="30" y="312" width="280" height="56" rx="12"/><text class="ft" x="170" y="336" text-anchor="middle">Your current IVR menu</text><text class="fs" x="170" y="355" text-anchor="middle">Same menu callers hear today</text></g>
+          </svg>
+        </figure>
+
+        <div class="reqs">
+          <p>Set it up exactly like your main business number:</p>
+          <ul>
+            <li>Same IVR menu and greeting callers hear on your main business number today</li>
+            <li>Same ring groups and departments, with the same business hours and after-hours handling</li>
+            <li>Not forwarded to Your AI Front Desk; calls stay on your own phone system</li>
+            <li>A different number from your main business number</li>
+          </ul>
+        </div>
+        <div class="field" data-group="contHave">
+          <span class="q">Do you have a number ready for this?<span class="req">*</span></span>
+          <div class="choices">
+            <label class="pill"><input type="radio" name="contHave" value="Yes, number provided"><span>Yes, I'll enter it</span></label>
+            <label class="pill"><input type="radio" name="contHave" value="Needs help setting one up"><span>Not yet, help me set one up</span></label>
+          </div>
+          <div class="err">Choose an option.</div>
+        </div>
+        <div class="cond" id="contBox">
+          <div class="grid" style="margin-top:16px">
+            <div class="field" id="contNumberField"><label class="l" for="contNumber">Continuity number<span class="req">*</span></label>
+              <input id="contNumber" name="contNumber" type="tel" required placeholder="e.g. 555-246-1250" autocomplete="off" inputmode="tel">
+              <span class="help">Customers never dial this number. It's used only behind the scenes.</span>
+              <div class="err" id="contErr">Enter your continuity number.</div></div>
+            <div class="field full" id="contConfirmField">
+              <label class="consent"><input type="checkbox" id="contConfirm" name="contConfirm" value="Confirmed" required>
+                <span>This number is set up the same way as my main business number, and it is not forwarded to Your AI Front Desk.</span></label>
+              <div class="err">Please confirm the number is set up like your main business number.</div>
+            </div>
+          </div>
+        </div>
+        <div class="cond" id="contHelpBox">
+          <div class="note" style="margin-top:16px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+            <p><strong>No problem.</strong> Our integration team will work with you or your phone provider to set one up before go-live.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- 7 Finish -->
+      <section class="panel" data-step="6">
+        <div class="panel-head"><h2>Final Details</h2><p>A few last points, then send.</p></div>
+        <div class="grid">
+          <div class="field"><label class="l" for="systems">Systems to connect</label><input id="systems" name="systems" type="text" placeholder="e.g. Epic, Google Calendar, HubSpot"><span class="help">Scheduling, EHR, CRM, etc.</span></div>
+          <div class="field"><label class="l" for="golive">Target go-live date</label><input id="golive" name="golive" type="date"></div>
+          <div class="field full"><span class="q">Should AI calls be recorded?</span>
+            <div class="choices">
+              <label class="pill"><input type="radio" name="recording" value="Yes"><span>Yes</span></label>
+              <label class="pill"><input type="radio" name="recording" value="No"><span>No</span></label>
+              <label class="pill"><input type="radio" name="recording" value="Need advice"><span>Need advice</span></label>
+            </div>
+          </div>
+          <div class="field full"><label class="l" for="notes">Anything else we should know?</label><textarea id="notes" name="notes" placeholder="Special routing rules, compliance needs (e.g. HIPAA), emergency procedures"></textarea></div>
+          <div class="field full" id="consentField">
+            <label class="consent"><input type="checkbox" id="consent" name="consent" required>
+              <span>I confirm I'm authorized to share this information and agree that Your AI Front Desk may use it solely to plan and configure our phone system integration.</span></label>
+            <div class="err">Please confirm to continue.</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button type="button" class="btn btn-ghost hidden" id="backBtn">Back</button>
+        <span class="progress" id="progress">Step 1 of 7</span>
+        <button type="button" class="btn btn-primary" id="nextBtn">Continue</button>
+      </div>
+    </form>
+
+    <div class="success" id="success" role="status" aria-live="polite">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+      <h2>Integration details sent</h2>
+      <p>Thank you. Our integration team will review your phone system details and contact you shortly to schedule the next steps.</p>
+    </div>
+  </div>
+
+  <p class="footer">© <span id="yr"></span> Your AI Front Desk · <a href="https://youraifrontdesk.com/en">youraifrontdesk.com</a></p>
+</main>
+
+<script>
+/* ==== Configuration ====
+   SUBMIT_URL: endpoint that receives the answers as JSON (e.g. an n8n webhook).
+   FALLBACK_EMAIL: used only when SUBMIT_URL is empty; opens the visitor's email app with the answers. */
+const SUBMIT_URL = "";
+const FALLBACK_EMAIL = "info@youraifrontdesk.com";
+
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+$('#yr').textContent = new Date().getFullYear();
+const xIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+const h = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const val = name => (document.querySelector(`input[name="${name}"]:checked`) || {}).value || '';
+
+/* ---------- State ---------- */
+const MAX_BRANCHES = 20, MAX_NUMBERS = 10;
+const bState = [];                      // per-department answers: name, loc, trig, did, mainDid, ext, sip
+const ensureState = n => { while (bState.length < n) bState.push({}); };
+function branchCount(){
+  const n = parseInt($('#branchCount').value, 10);
+  return isNaN(n) ? 0 : Math.min(Math.max(n, 1), MAX_BRANCHES);
+}
+const branchLabel = k => {
+  const b = bState[k] || {}, name = (b.name || '').trim(), loc = (b.loc || '').trim();
+  return name ? (loc ? `${name} (${loc})` : name) : `Department ${k + 1}`;
+};
+const digits = v => String(v || '').replace(/\D/g, '');
+
+/* ---------- Stepper / navigation ---------- */
+const panels = $$('.panel'), steps = $$('#steps .step');
+const stepTitles = ['Contact','Departments','Call Handling','Phone System','Numbers & Transfers','Continuity Number','Finish'];
+const completed = new Array(panels.length).fill(false);
+const hasError = new Array(panels.length).fill(false);
+let step = 0, msgTimer;
+
+const firstIncomplete = () => { const i = completed.indexOf(false); return i === -1 ? panels.length - 1 : i; };
+
+function updateStepper(){
+  const fi = firstIncomplete();
+  steps.forEach((s,k) => {
+    s.classList.toggle('current', k === step);
+    s.classList.toggle('done', completed[k]);
+    s.classList.toggle('locked', k > fi);
+    s.classList.toggle('has-error', hasError[k] && !completed[k]);
+    const b = s.querySelector('button');
+    b.setAttribute('aria-disabled', k > fi ? 'true' : 'false');
+    b.title = k > fi ? 'Complete the previous steps first' : stepTitles[k];
+    if (k === step) b.setAttribute('aria-current','step'); else b.removeAttribute('aria-current');
+  });
+  $('#stepCaption').innerHTML = `Step ${step + 1} of ${panels.length} · <b>${stepTitles[step]}</b>`;
+}
+function flash(text){
+  const m = $('#stepMsg'); m.textContent = text; m.classList.add('show');
+  clearTimeout(msgTimer); msgTimer = setTimeout(() => m.classList.remove('show'), 3800);
+}
+function scrollTop(){ window.scrollTo({top:$('.card').offsetTop - 12, behavior:'smooth'}); }
+
+function show(i){
+  step = i;
+  panels.forEach((p,k) => p.classList.toggle('active', k === i));
+  if (i === 2) refreshIvr();
+  if (i === 4) renderTransfers();
+  $('#backBtn').classList.toggle('hidden', i === 0);
+  $('#nextBtn').textContent = i === panels.length - 1 ? 'Send integration details' : 'Continue';
+  $('#progress').textContent = `Step ${i + 1} of ${panels.length}`;
+  updateStepper();
+}
+function goTo(i){
+  if (i === step) return;
+  const fi = firstIncomplete();
+  if (i > fi){ flash(`Please complete “${stepTitles[fi]}” before moving on.`); return; }
+  if (i > step){
+    for (let j = step; j < i; j++){
+      show(j);
+      if (!validatePanel(j)){ completed[j] = false; updateStepper(); return; }
+      completed[j] = true;
+    }
+  }
+  show(i); scrollTop();
+}
+steps.forEach((s,k) => s.querySelector('button').addEventListener('click', () => goTo(k)));
+$('#backBtn').onclick = () => { show(step - 1); scrollTop(); };
+$('#nextBtn').onclick = () => {
+  if (!validatePanel(step)){ completed[step] = false; updateStepper(); return; }
+  completed[step] = true; hasError[step] = false;
+  if (step < panels.length - 1){ show(step + 1); scrollTop(); }
+  else submit();
+};
+
+/* ---------- Validation ---------- */
+const visible = el => el.offsetParent !== null;
+function validatePanel(i){
+  const p = panels[i]; let bad = null;
+  const mark = (field, ok, focusEl) => { field.classList.toggle('invalid', !ok); if (!ok && !bad) bad = focusEl || field; };
+  p.querySelectorAll('[required]').forEach(el => {
+    if (!visible(el)) return;
+    const ok = el.type === 'checkbox' ? el.checked : el.value.trim() !== '' && el.checkValidity();
+    mark(el.closest('.field'), ok, el);
+  });
+  p.querySelectorAll('[data-group]').forEach(f => {
+    const ok = !!f.querySelector(`input[name="${f.dataset.group}"]:checked`);
+    mark(f, ok, f.querySelector('input'));
+  });
+  if (i === 2 && val('handling') === 'IVR menu'){
+    const rows = $$('#ivrRows .row'); let ok = rows.length > 0;
+    rows.forEach(r => {
+      const b = r.querySelector('.r-branch'), d = r.querySelector('.r-dest'), x = r.querySelector('.ext-in');
+      [[b, b.value === ''], [d, d.value === ''], [x, d.value === 'Extension' && x.value.trim() === '']].forEach(([el, isBad]) => {
+        el.classList.toggle('bad', isBad);
+        if (isBad){ ok = false; if (!bad) bad = el; }
+      });
+    });
+    $('#ivrField').classList.toggle('ivr-bad', !ok);
+  }
+  if (i === 2){
+    const rows = $$('#hoursRows .h-row'); let any = false, valid = true;
+    rows.forEach(r => {
+      const on = r.querySelector('.h-on').checked, f = r.querySelector('.h-from'), u = r.querySelector('.h-until');
+      u.classList.remove('bad');
+      if (!on) return;
+      any = true;
+      if (+u.value <= +f.value){ valid = false; u.classList.add('bad'); if (!bad) bad = u; }
+    });
+    if (!any){ valid = false; if (!bad) bad = rows[0].querySelector('.h-on'); }
+    $('#hoursErr').textContent = !any ? 'Open at least one day.' : 'Closing time must be later than opening time.';
+    $('#hoursField').classList.toggle('hrs-bad', !valid);
+  }
+  if (i === 5 && val('contHave') === 'Yes, number provided'){
+    const c = $('#contNumber'), f = $('#contNumberField'), main = digits($('#aiNumber').value);
+    const same = c.value.trim() !== '' && main !== '' && digits(c.value) === main;
+    $('#contErr').textContent = same ? 'Use a different number from your main business number.' : 'Enter your continuity number.';
+    if (same){ f.classList.add('invalid'); if (!bad) bad = c; }
+  }
+  if (bad){ (bad.focus ? bad : bad.querySelector('input'))?.focus(); }
+  return !bad;
+}
+const clearInvalid = e => {
+  const f = e.target.closest('.invalid'); if (f) f.classList.remove('invalid');
+  const g = e.target.closest('.ivr-bad'); if (g) g.classList.remove('ivr-bad');
+  const k = e.target.closest('.hrs-bad'); if (k) k.classList.remove('hrs-bad');
+  e.target.classList && e.target.classList.remove('bad');
+};
+document.addEventListener('input', clearInvalid);
+document.addEventListener('change', clearInvalid);
+
+/* ---------- Simple conditionals ---------- */
+$$('input[name="managedBy"]').forEach(r => r.addEventListener('change', () => $('#providerBox').classList.toggle('show', val('managedBy') === 'Third-party provider')));
+$$('input[name="contHave"]').forEach(r => r.addEventListener('change', () => {
+  $('#contBox').classList.toggle('show', val('contHave') === 'Yes, number provided');
+  $('#contHelpBox').classList.toggle('show', val('contHave') === 'Needs help setting one up');
+}));
+$$('input[name="noAnswer"]').forEach(r => r.addEventListener('change', () => $('#backupBox').classList.toggle('show', val('noAnswer') === 'Try a backup number')));
+$$('input[name="handling"]').forEach(r => r.addEventListener('change', () => {
+  const ivr = val('handling') === 'IVR menu';
+  $('#ivrBox').classList.toggle('show', ivr);
+  const o = $('#optIvrAfter'); o.disabled = !ivr;
+  if (!ivr && $('#afterHours').value === o.textContent) $('#afterHours').value = '';
+  if (ivr) refreshIvr();
+}));
+$('#optIvrAfter').disabled = true;
+$$('input[name="transferMethod"]').forEach(r => r.addEventListener('change', () => {
+  const m = val('transferMethod');
+  $('#sipBox').classList.toggle('show', m === 'sip');
+  renderTransfers();
+}));
+
+/* ---------- Departments (step 2) ---------- */
+const branchesEl = $('#branches');
+const DEPT_EX = [
+  ['Sales', 'sales, pricing, quote, buy'],
+  ['Customer Service', 'help, complaint, order status, return'],
+  ['Billing', 'billing, invoice, payment, refund'],
+  ['Technical Support', 'support, not working, error, setup'],
+  ['Human Resources', 'jobs, careers, HR, vacancy']
+]
+let renderedN = 0;
+function renderBranches(){
+  const n = branchCount(); if (!n || n === renderedN) return;
+  renderedN = n;
+  ensureState(n);
+  branchesEl.innerHTML = Array.from({length:n}, (_,k) => {
+    const [exName, exTrig] = DEPT_EX[k % DEPT_EX.length];
+    return `
+    <div class="branch" data-i="${k}">
+      <div class="branch-head"><span class="badge">${k + 1}</span><h4>Department ${k + 1}</h4></div>
+      <div class="grid">
+        <div class="field"><label class="l" for="bn${k}">Department name<span class="req">*</span></label>
+          <input id="bn${k}" type="text" data-k="name" required placeholder="e.g. ${exName}" value="${h(bState[k].name)}">
+          <span class="help">One department only. Add others in their own cards.</span>
+          <div class="err">Enter a name for this department.</div></div>
+        <div class="field"><label class="l" for="bl${k}">Location<span class="opt-tag">Optional</span></label>
+          <input id="bl${k}" type="text" data-k="loc" placeholder="e.g. Downtown" value="${h(bState[k].loc)}">
+          <span class="help">Only if this department operates at more than one location. Add it once for each location.</span></div>
+        <div class="field full"><label class="l" for="bt${k}">What callers say to the AI to reach this department</label>
+          <input id="bt${k}" type="text" data-k="trig" placeholder="e.g. ${exTrig}" value="${h(bState[k].trig)}">
+          <span class="help">Words or phrases a caller might say to the AI agent when asking for this department. When the AI hears them, it transfers the caller here. Separate with commas.</span></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+$('#branchCount').addEventListener('input', renderBranches);
+$('#branchCount').addEventListener('change', () => { $('#branchCount').value = branchCount() || 1; renderBranches(); });
+branchesEl.addEventListener('input', e => {
+  const t = e.target; if (!t.dataset.k) return;
+  bState[+t.closest('.branch').dataset.i][t.dataset.k] = t.value;
+});
+renderBranches();
+
+/* ---------- IVR menu (step 3): each option = branch + how it is handled ---------- */
+const ivrRows = $('#ivrRows');
+function addIvr(){
+  if (ivrRows.children.length >= Math.max(branchCount(), 1)) return;
+  const r = document.createElement('div'); r.className = 'row';
+  r.innerHTML = `<div class="key"></div>
+    <select class="r-branch" aria-label="Department for this menu key"></select>
+    <select class="r-dest" aria-label="How calls to this department are handled">
+      <option value="">Handled by…</option><option>AI Agent</option><option>Extension</option><option>Voicemail</option></select>
+    <button type="button" class="icon-btn" aria-label="Remove option">${xIcon}</button>
+    <div class="r-ext"><input type="text" class="ext-in" placeholder="Extension number, e.g. 503" aria-label="Extension number"></div>`;
+  r.querySelector('.r-branch').addEventListener('change', refreshIvr);
+  r.querySelector('.r-dest').addEventListener('change', e => {
+    const ext = e.target.value === 'Extension', x = r.querySelector('.ext-in');
+    r.classList.toggle('has-ext', ext);
+    if (ext) x.focus(); else { x.value = ''; x.classList.remove('bad'); }
+  });
+  r.querySelector('button').onclick = () => {
+    if (ivrRows.children.length > 1) r.remove();
+    else {
+      r.querySelector('.r-branch').value = ''; r.querySelector('.r-dest').value = '';
+      r.querySelector('.ext-in').value = ''; r.classList.remove('has-ext');
+    }
+    refreshIvr();
+  };
+  ivrRows.appendChild(r); refreshIvr();
+}
+function refreshIvr(){
+  const n = Math.max(branchCount(), 1);
+  while (ivrRows.children.length > n) ivrRows.lastElementChild.remove();
+  if (!ivrRows.children.length){ addIvr(); return; }
+  const rows = [...ivrRows.children];
+  const vals = rows.map(r => { const v = r.querySelector('.r-branch').value; return v !== '' && +v < n ? v : ''; });
+  rows.forEach((r,k) => {
+    const taken = new Set(vals.filter((v,j) => j !== k && v !== ''));
+    const s = r.querySelector('.r-branch');
+    s.innerHTML = '<option value="">Select a department</option>' + Array.from({length:n}, (_,b) =>
+      `<option value="${b}"${taken.has(String(b)) ? ' disabled' : ''}>${h(branchLabel(b))}</option>`).join('');
+    s.value = vals[k];
+    r.querySelector('.key').textContent = k + 1;
+  });
+  $('#ivrCounter').innerHTML = `<b>${rows.length}</b> of <b>${n}</b> ${n === 1 ? 'department' : 'departments'} used`;
+  $('#ivrSub').textContent = `Assign each menu key to a department, then choose how that department's calls are handled: by the AI Agent, an Extension, or Voicemail. Each department can be used once.`;
+  $('#addIvr').disabled = rows.length >= n;
+}
+$('#addIvr').onclick = () => { addIvr(); const r = ivrRows.lastElementChild; if (r) r.querySelector('.r-branch').focus(); };
+refreshIvr();
+
+/* ---------- Business hours (step 3) ---------- */
+const DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+const fmtT = m => {
+  if (m === 1440) return '12:00 AM (midnight)';
+  const hh = Math.floor(m / 60), mm = m % 60;
+  return `${hh % 12 || 12}:${String(mm).padStart(2,'0')} ${hh < 12 ? 'AM' : 'PM'}`;
+};
+const timeOpts = (a, b, sel) => { let o = ''; for (let m = a; m <= b; m += 30) o += `<option value="${m}"${m === sel ? ' selected' : ''}>${fmtT(m)}</option>`; return o; };
+const hoursRows = $('#hoursRows');
+function setDay(r, on, from, until){
+  r.classList.toggle('off', !on);
+  r.querySelector('.h-on').checked = on;
+  r.querySelector('small').textContent = on ? 'Open' : 'Closed';
+  const f = r.querySelector('.h-from'), u = r.querySelector('.h-until');
+  if (from != null) f.value = from;
+  if (until != null) u.value = until;
+  f.disabled = u.disabled = !on;
+  f.classList.remove('bad'); u.classList.remove('bad');
+}
+DAYS.forEach((day,k) => {
+  const r = document.createElement('div'); r.className = 'h-row';
+  r.innerHTML = `<label class="h-day"><span class="switch"><input type="checkbox" class="h-on" aria-label="${day} open"><span class="slider"></span></span>
+      <span class="h-name"><b>${day}</b><small></small></span></label>
+    <select class="h-sel h-from" aria-label="${day} opens at">${timeOpts(0, 1410, 540)}</select>
+    <span class="h-to">to</span>
+    <select class="h-sel h-until" aria-label="${day} closes at">${timeOpts(30, 1440, 1020)}</select>`;
+  hoursRows.appendChild(r);
+  setDay(r, k < 5, 540, 1020);
+});
+hoursRows.addEventListener('change', e => {
+  if (e.target.classList.contains('h-on')) setDay(e.target.closest('.h-row'), e.target.checked);
+});
+
+/* ---------- Transfer details per department (step 5) ---------- */
+const tSpec = {
+  did:{
+    title:'Direct number (DID) for each department',
+    sub:'The AI agent will dial each department’s external number to transfer the call.',
+    fields:[{k:'did', label:'Department DID', ph:'e.g. 555-246-1234', help:'The full external number of this department.', err:'Enter this department’s number.'}]
+  },
+  didext:{
+    title:'Main DID and extension for each department',
+    sub:'The AI agent dials the main number first, then sends the extension digits for the department.',
+    fields:[
+      {k:'mainDid', label:'Main DID', ph:'e.g. 555-567-7765', help:'The number the AI dials first.', err:'Enter the main number.'},
+      {k:'ext', label:'Extension (DTMF digits)', ph:'e.g. #300', help:'Digits sent after the call connects.', err:'Enter the extension digits.'}
+    ]
+  },
+  sip:{
+    title:'SIP Transfer Destination',
+    sub:'The AI agent transfers each call straight to the department’s extension on your PBX over SIP.',
+    fields:[{k:'sip', label:'SIP extension or address', ph:'e.g. 503 or sip:503@pbx.yourdomain.com', help:'An extension number, or the full SIP address.', err:'Enter this department’s SIP extension.'}]
+  }
+};
+function renderTransfers(){
+  const m = val('transferMethod'), wrap = $('#transferWrap');
+  wrap.classList.toggle('show', !!m);
+  if (!m){ $('#transfers').innerHTML = ''; return; }
+  const n = Math.max(branchCount(), 1); ensureState(n);
+  const spec = tSpec[m];
+  $('#transferTitle').textContent = spec.title;
+  $('#transferSub').textContent = spec.sub;
+  $('#transfers').innerHTML = Array.from({length:n}, (_,k) => `
+    <div class="t-row" data-i="${k}">
+      <div class="t-name"><span class="badge">${k + 1}</span><div><b>${h(branchLabel(k))}</b><small>Department ${k + 1}</small></div></div>
+      <div class="t-fields${spec.fields.length > 1 ? ' two' : ''}">
+        ${spec.fields.map(f => `<div class="field"><label class="l" for="t${k}-${f.k}">${f.label}<span class="req">*</span></label>
+          <input id="t${k}-${f.k}" type="text" data-k="${f.k}" required placeholder="${h(f.ph)}" value="${h(bState[k][f.k])}">
+          <span class="help">${f.help}</span><div class="err">${f.err}</div></div>`).join('')}
+      </div>
+    </div>`).join('');
+}
+$('#transfers').addEventListener('input', e => {
+  const t = e.target; if (!t.dataset.k) return;
+  bState[+t.closest('.t-row').dataset.i][t.dataset.k] = t.value;
+});
+
+/* ---------- Collect & submit ---------- */
+const methodNames = { did:'Direct DID', didext:'DID + extension (DTMF)', sip:'Extension via SIP' };
+function collect(){
+  const fd = new FormData($('#intakeForm')), d = {};
+  for (const [k,v] of fd.entries()) d[k] = v;
+  const n = branchCount(), m = val('transferMethod');
+  d.transferMethod = methodNames[m] || '';
+  d.timezoneLabel = $('#timezone').selectedOptions[0].textContent === 'Select time zone' ? '' : $('#timezone').selectedOptions[0].textContent;
+  d.businessHours = $$('#hoursRows .h-row').map((r,k) => {
+    const on = r.querySelector('.h-on').checked, f = r.querySelector('.h-from'), u = r.querySelector('.h-until');
+    return { day:DAYS[k], open:on, from:on ? f.selectedOptions[0].textContent : '', until:on ? u.selectedOptions[0].textContent : '' };
+  });
+  d.departments = Array.from({length:n}, (_,k) => {
+    const b = bState[k] || {}, o = { name:(b.name||'').trim(), location:(b.loc||'').trim(), triggers:(b.trig||'').trim() };
+    if (m === 'did') o.did = (b.did||'').trim();
+    if (m === 'didext'){ o.mainDid = (b.mainDid||'').trim(); o.extension = (b.ext||'').trim(); }
+    if (m === 'sip') o.sip = (b.sip||'').trim();
+    return o;
+  });
+  d.ivrMenu = d.handling === 'IVR menu'
+    ? $$('#ivrRows .row').map((r,k) => {
+        const dest = r.querySelector('.r-dest').value;
+        return { key:k+1, department:branchLabel(+r.querySelector('.r-branch').value), handledBy:dest, extension:dest === 'Extension' ? r.querySelector('.ext-in').value.trim() : '' };
+      })
+    : [];
+  d.submittedAt = new Date().toISOString();
+  return d;
+}
+function toText(d){
+  const L = [], add = (l,v) => { if (v) L.push(`${l}: ${v}`); };
+  add('Business',d.company); add('Contact',d.contactName); add('Role',d.role); add('Email',d.email); add('Phone',d.phone);
+  add('Departments',d.departmentCount);
+  d.departments.forEach((b,k) => L.push(`  ${k+1}. ${b.name}${b.location ? ' (' + b.location + ')' : ''} | caller words: ${b.triggers}`));
+  add('Call handling',d.handling); d.ivrMenu.forEach(x => L.push(`  Press ${x.key}: ${x.department} -> ${x.handledBy}${x.extension ? ' ' + x.extension : ''}`));
+  add('Time zone',d.timezoneLabel); L.push('Business hours:');
+  d.businessHours.forEach(x => L.push(`  ${x.day}: ${x.open ? x.from + ' - ' + x.until : 'Closed'}`));
+  add('After hours',d.afterHours);
+  add('PBX',d.pbx); add('Carrier',d.carrier); add('Hosting',d.hosting); add('Managed by',d.managedBy); add('Provider contact',d.providerContact);
+  add('Max simultaneous calls',d.concurrent); add('Calls per day',d.volume);
+  add('Main business number (forwarded to Your AI Front Desk by the customer)',d.aiNumber);
+  add('Continuity number status',d.contHave); add('Continuity number',d.contNumber); add('Continuity number set up like main business number',d.contConfirm);
+  add('Transfer method',d.transferMethod);
+  d.departments.forEach((b,k) => {
+    const det = b.did ? b.did : b.mainDid ? `${b.mainDid} + ${b.extension}` : b.sip || '';
+    L.push(`  ${k+1}. ${b.name}${b.location ? ' (' + b.location + ')' : ''} -> ${det}`);
+  });
+  add('SIP address',d.sipHost); add('SIP transport',d.sipTransport); add('SIP auth',d.sipAuth);
+  add('No answer',d.noAnswer); add('Backup number',d.backupNumber);
+  add('Systems',d.systems); add('Go-live',d.golive); add('Recording',d.recording); add('Notes',d.notes);
+  return L.join('\n');
+}
+async function submit(){
+  // Re-check every step; stop at the first one with a problem
+  for (let i = 0; i < panels.length; i++){
+    show(i);
+    if (!validatePanel(i)){ completed[i] = false; hasError[i] = true; updateStepper(); flash(`Please fix “${stepTitles[i]}” before sending.`); return; }
+    completed[i] = true; hasError[i] = false;
+  }
+  show(panels.length - 1);
+  const btn = $('#nextBtn'), data = collect();
+  btn.disabled = true; btn.textContent = 'Sending…';
+  try{
+    if (SUBMIT_URL){
+      const res = await fetch(SUBMIT_URL, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data) });
+      if (!res.ok) throw new Error(res.status);
+    } else {
+      location.href = `mailto:${FALLBACK_EMAIL}?subject=${encodeURIComponent('Integration form: ' + data.company)}&body=${encodeURIComponent(toText(data))}`;
+    }
+    ['#intakeForm','#stepper','.notice'].forEach(s => $(s).style.display = 'none');
+    $('#success').style.display = 'block';
+    scrollTop();
+  } catch(e){
+    btn.disabled = false; btn.textContent = 'Send integration details';
+    alert('The form could not be sent. Check your connection and try again, or email us at ' + FALLBACK_EMAIL + '.');
+  }
+}
+
+updateStepper();
+</script>
+</body>
+</html>
